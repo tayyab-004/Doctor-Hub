@@ -1,5 +1,5 @@
 {
-  "name": "doctor-hub",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "tayyab-004",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^9.1.2"
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
   }
 }
