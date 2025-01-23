@@ -1,8 +1,6 @@
 
 const App = () => {
-  return (
-    <div>Doctor Hub</div>
-  )
-}
+  return <div className="text-green-500">Testing Tailwind</div>;
+};
 
-export default App
+export default App;
