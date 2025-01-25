@@ -4,6 +4,12 @@
   --color-primary: #5f6fff;
 }
 
+@layer utilities {
+  .grid-cols-auto {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
 .active hr {
   @apply block;
 }
