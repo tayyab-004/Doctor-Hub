@@ -11,8 +11,12 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
       <div className="flex items-center cursor-pointer">
-        <img className="w-15" src={assets.logo} alt="logo" />
-        <span className="font-bold text-xl p-0 text-primary">Doctor Hub</span>
+        <img
+          onClick={() => navigate("/")}
+          className="w-15"
+          src={assets.logo}
+          alt="logo"
+        />
       </div>
 
       <ul className="hidden md:flex items-start gap-5 font-medium">
@@ -61,7 +65,12 @@ const Navbar = () => {
                 >
                   My Appointments
                 </p>
-                <p onClick={()=> setToken(false)} className="hover:text-black cursor-pointer">Logout</p>
+                <p
+                  onClick={() => setToken(false)}
+                  className="hover:text-black cursor-pointer"
+                >
+                  Logout
+                </p>
               </div>
             </div>
           </div>
