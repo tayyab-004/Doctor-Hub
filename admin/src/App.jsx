@@ -1,8 +1,11 @@
+import Login from "./pages/Login";
 
 const App = () => {
   return (
-    <div className="text-green-500">Admin Site Pannel</div>
+    <div>
+      <Login />
+    </div>
   );
-}
+};
 
-export default App
+export default App;
