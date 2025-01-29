@@ -1,8 +1,8 @@
 
 const App = () => {
   return (
-    <div>Admin Site Pannel</div>
-  )
+    <div className="text-green-500">Admin Site Pannel</div>
+  );
 }
 
 export default App
