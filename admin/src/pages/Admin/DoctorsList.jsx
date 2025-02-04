@@ -1,8 +1,16 @@
+import { useContext, useEffect } from "react";
+import { AdminContext } from "../../context/AdminContext";
 
 const DoctorsList = () => {
-  return (
-    <div>DoctorsList</div>
-  )
-}
+  const { doctors, aToken, getAllDoctors } = useContext(AdminContext);
 
-export default DoctorsList
+  useEffect(() => {
+    if (aToken) {
+      getAllDoctors();
+    }
+  }, [aToken]);
+
+  return <div>DoctorsList</div>;
+};
+
+export default DoctorsList;
