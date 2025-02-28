@@ -250,7 +250,7 @@ const paymentRazorpay = async (req, res) => {
     };
 
     // creating an order
-    const order = await razorpay.orders.create(options);
+    const order = await razorpayInstance.orders.create(options);
 
     res.json({ success: true, order });
   } catch (error) {
