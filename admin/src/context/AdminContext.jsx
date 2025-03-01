@@ -77,6 +77,16 @@ const AdminContextProvider = (props) => {
       if (data.success) {
         toast.success(data.message);
         getAllAppointments();
+
+        // Update dashboard data immediately
+        setDashData((prev) => ({
+          ...prev,
+          latestAppointments: prev.latestAppointments.map((appointment) =>
+            appointment._id === appointmentId
+              ? { ...appointment, cancelled: true }
+              : appointment
+          ),
+        }));
       } else {
         toast.error(data.message);
       }
