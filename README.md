@@ -158,7 +158,7 @@ npm start
 ```
 
 - Frontend (Patient Website): `http://localhost:5173`
-- Admin & Doctor Panel: `http://localhost:5173`
+- Admin & Doctor Panel: `http://localhost:5174`
 - Backend: `http://localhost:5000`
 
 ## Usage
