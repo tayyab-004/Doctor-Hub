@@ -1,4 +1,4 @@
-# Doctor Hub - Full Stack Doctor Appointment System
+# Doctor Hub - Full Stack Doctor Appointment System 🩺
 
 ## Introduction
 
@@ -6,13 +6,15 @@ Doctor Hub is a comprehensive Full Stack Doctor Appointment System (DMS) built o
 
 ## Table of Contents
 
-1. Features
-2. Tech Stack
-3. Installation
-4. Environment Variables
-5. Usage
+1. [Features](#features)
+2. [Tech Stack](#tech-stack)
+3. [Installation](#installation)
+4. [Environment Variables](#environment-variables)
+5. [Usage](#usage)
 
-## Features
+---
+
+## Features 🔍
 
 ### Patient Features
 
@@ -44,7 +46,9 @@ Doctor Hub is a comprehensive Full Stack Doctor Appointment System (DMS) built o
 - Add new doctors to the system.
 - Manage user data efficiently.
 
-## Tech Stack
+---
+
+## Tech Stack ⚡
 
 ### Admin & Doctor Panel
 
@@ -78,7 +82,9 @@ Doctor Hub is a comprehensive Full Stack Doctor Appointment System (DMS) built o
 - Bcrypt for password hashing
 - Multer for file uploads
 
-## Installation
+---
+
+## Installation ♨️
 
 To run this project locally, follow these steps:
 
@@ -161,7 +167,9 @@ npm start
 - Admin & Doctor Panel: `http://localhost:5174`
 - Backend: `http://localhost:5000`
 
-## Usage
+---
+
+## Usage 💡
 
 - Patients can register, book appointments, and make payments.
 - Doctors can manage appointments and earnings.
