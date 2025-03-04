@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Doctor Hub is a comprehensive Full Stack Doctor Appointment System (DMS) built on the MERN stack. It provides a seamless experience for patients to book appointments, doctors to manage their schedules and earnings, and administrators to oversee the system. With an intuitive UI and robust backend, Doctor Hub ensures efficient doctor-patient interactions with features like appointment scheduling, profile management, and online payments via Razorpay.
+Doctor Hub is a MERN-based Full Stack Doctor Appointment System (DMS) enabling patients to book appointments, doctors to manage schedules and earnings, and admins to oversee operations, with features like profile management and Razorpay payments.
+
+
 
 ## Table of Contents
 
