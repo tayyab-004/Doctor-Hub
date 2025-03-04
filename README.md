@@ -16,7 +16,7 @@ Doctor Hub is a MERN-based Full Stack Doctor Appointment System (DMS) enabling p
 
 ---
 
-## Features 🔍
+## Features
 
 ### Patient Features
 
@@ -50,7 +50,7 @@ Doctor Hub is a MERN-based Full Stack Doctor Appointment System (DMS) enabling p
 
 ---
 
-## Tech Stack ⚡
+## Tech Stack
 
 ### Admin & Doctor Panel
 
@@ -86,7 +86,7 @@ Doctor Hub is a MERN-based Full Stack Doctor Appointment System (DMS) enabling p
 
 ---
 
-## Installation ♨️
+## Installation
 
 To run this project locally, follow these steps:
 
@@ -124,6 +124,8 @@ npm install
 cd backend
 npm install
 ```
+
+## Environment Variables
 
 ### 4. Set Up Environment Variables
 
@@ -171,7 +173,7 @@ npm start
 
 ---
 
-## Usage 💡
+## Usage
 
 - Patients can register, book appointments, and make payments.
 - Doctors can manage appointments and earnings.
